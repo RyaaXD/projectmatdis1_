@@ -45,7 +45,7 @@ int main() {
 
     for (int i = 0; i < jumlahbarang; i++) {
         cout << namabarang[i]
-             << " | " << jumlah[i]
+             << " I " << jumlah[i]
              << " x " << harga[i]
              << " = " << subtotal[i] << endl;
     }
