@@ -9,18 +9,18 @@ int main() {
     int subtotal[50];
     int total = 0;
     float diskon = 0;
-    float totalAkhir;
+    float totalakhir;
 
     cout << "===================================" << endl;
     cout << "      PROGRAM KASIR MINIMARKET      " << endl;
     cout << "===================================" << endl;
 
-    cout << "Masukkan jumlah barang: ";
+    cout << "masukkan jumlah barang: ";
     cin >> jumlahbarang;
 
     for (int i = 0; i < jumlahbarang; i++) {
         cout << "\nbarang ke-" << i + 1 << endl;
-        cout << "Nama barang   : ";
+        cout << "nama barang   : ";
         cin >> namabarang[i];
         cout << "harga barang  : ";
         cin >> harga[i];
@@ -51,11 +51,11 @@ int main() {
     }
 
     cout << "-----------------------------------" << endl;
-    cout << "Total Belanja : Rp " << total << endl;
-    cout << "Diskon        : Rp " << diskon << endl;
-    cout << "Total Bayar   : Rp " << totalAkhir << endl;
+    cout << "total belanja : Rp " << total << endl;
+    cout << "diskon        : Rp " << diskon << endl;
+    cout << "total Bayar   : Rp " << totalAkhir << endl;
     cout << "-----------------------------------" << endl;
-    cout << "Terima kasih telah berbelanja!" << endl;
+    cout << "terima kasih telah berbelanja!" << endl;
 
     return 0;
 }
